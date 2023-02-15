@@ -21,7 +21,7 @@ public class Rotator : MonoBehaviour
 
     private void Update()
     {
-        transform.Rotate(new Vector3(0, Time.deltaTime * _rotationSpeed * (int)(_rotateDirection)));
+        transform.Rotate(new Vector3(0, Time.deltaTime * 10 *  _rotationSpeed * (int)(_rotateDirection)));
     }
 
 
